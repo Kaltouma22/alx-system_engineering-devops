@@ -1,0 +1,15 @@
+total 52
+drwxrwxr-x 2 kati kati 4096 Sep  4 20:21 .
+drwxrwxr-x 6 kati kati 4096 Sep  4 18:18 ..
+-rwxrw-r-- 1 kati kati   32 Sep  4 18:28 0-hello_world
+-rwxrw-r-- 1 kati kati   29 Sep  4 18:50 1-confused_smiley
+-rwxrw-r-- 1 kati kati   28 Sep  4 19:01 2-hellofile
+-rwxrw-r-- 1 kati kati   39 Sep  4 19:07 3-twofiles
+-rwxrw-r-- 1 kati kati   29 Sep  4 19:17 4-lastlines
+-rwxrw-r-- 1 kati kati   29 Sep  4 19:19 5-firstlines
+-rwxrw-r-- 1 kati kati   46 Sep  4 19:35 6-third_line
+-rwxrw-r-- 1 kati kati   78 Sep  4 19:57 7-file
+-rwxrw-r-- 1 kati kati   36 Sep  4 20:12 8-cwd_state
+-rw-rw-r-- 1 kati kati   12 Sep  4 19:47 *\"Best School"\\*$?*****:)
+-rw-rw-r-- 1 kati kati    0 Sep  4 20:22 ls_cwd_content
+-rw-rw-r-- 1 kati kati   15 Sep  4 18:20 README.md
