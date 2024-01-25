@@ -9,8 +9,8 @@ while [ $counter -lt 10 ]
 do
 	if [ $counter -eq 8 ]; then
 		# Special case for the 9th iteration
-		echo -n "Best School"
-		echo " Hi"
+		echo "Best School"
+		echo "Hi"
 	else
 		# Regular case
 		echo "Best School"
