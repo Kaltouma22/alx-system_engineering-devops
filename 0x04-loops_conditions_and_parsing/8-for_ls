@@ -10,6 +10,6 @@ do
         name_part=$(echo "$file" | cut -d '-' -f 2-)
 
         # Display the modified name in a list format
-        echo "- $name_part"
+        echo "$name_part"
     fi
 done
