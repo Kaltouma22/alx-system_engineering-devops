@@ -2,9 +2,9 @@
 # Script to display time for 12 hours and 59 minutes
 
 # Initialize variables
-
 hours=0
 
+# Use a while loop to display hours and minutes
 while [ $hours -le 12 ]
 do
 	echo "Hour: $hours"
