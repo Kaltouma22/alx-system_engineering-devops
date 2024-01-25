@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Script to display a story based on /etc/passwd
+
+# Set IFS to colon (:) to parse fields in /etc/passwd
+IFS=":"
+
+# Use a while loop to read each line from /etc/passwd
+while read -r username _ uid gid _ home shell
+do
+    echo "The user $username is part of the $gid gang,"
+    echo "lives in $home and rides $shell."
+    echo "USER ID's place is protected by the passcode PASSWORD, more info about the user here: USER ID INFO"
+    echo
+done < /etc/passwd
