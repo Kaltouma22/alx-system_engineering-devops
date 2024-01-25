@@ -2,7 +2,7 @@
 # Script to display Fizz, Buzz, FizzBuzz, or numbers from 1 to 100
 
 # Use a for loop to iterate over numbers from 1 to 100
-for ((i=1; i<=100; i++))
+for ((i=1; i<=20; i++))
 do
     # Check conditions for Fizz, Buzz, and FizzBuzz
     if ((i % 3 == 0)) && ((i % 5 == 0)); then
@@ -14,4 +14,4 @@ do
     else
         echo $i
     fi
-done | head -n 20
+done
