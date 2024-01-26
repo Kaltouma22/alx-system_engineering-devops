@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Display a list of currently running processes
+echo "USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND"
+
+# Use ps to retrieve information about processes and filter lines containing "bash"
+ps axo user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command --forest | grep bash
+
+# shellcheck disable=SC2009
