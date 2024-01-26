@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Find and terminate the 7-highlander process using a signal
+pkill -o -SIGTERM -f "7-highlander.sh"
+
+# Optionally wait for the process to terminate gracefully
+sleep 2
+
+# Check if the process is still running and force termination if necessary
+if pgrep -f "7-highlander.sh" > /dev/null; then
+    pkill -o -SIGKILL -f "7-highlander.sh"
+fi
+
+echo "Process terminated"
