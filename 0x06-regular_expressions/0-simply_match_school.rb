@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
+
 # Check if an argument is provided
 if ARGV.empty?
   puts "Usage: #{__FILE__} <string>"
@@ -12,8 +13,8 @@ input_string = ARGV[0]
 regexp = /School/
 
 # Check if the input matches the regular expression
-if input_string.match?(regexp)
-  puts "The input '#{input_string}' matches the pattern 'School'."
+if match_data = input_string.match(regexp)
+  puts "#{match_data[0]}$"
 else
-  puts "The input '#{input_string}' does not match the pattern 'School'."
+  puts "$"
 end
