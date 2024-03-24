@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Your machine has an SSH configuration file for the local SSH client
+Host 10.0.2.15
+  IdentityFile ~/.ssh/school
+  PasswordAuthentication no
